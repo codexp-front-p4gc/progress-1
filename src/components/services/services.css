@@ -1,0 +1,121 @@
+body {
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* DESCRIPTION CSS */
+
+
+.description {
+    padding: 15px;
+    text-align: center;
+}
+
+.description__title, .description__paragraph {
+    padding: 10px;
+}
+
+/* SERVICES TRACK CLEAR CSS */
+
+.track-clear {
+    background-color: #F8F8F9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.track-clear .description {
+    padding: 1.5rem 0 1.5rem 0;
+    width: 65%;
+   
+}
+
+.track-clear .description__title, .track-clear .description__paragraph {
+    padding: 0;
+}
+
+.track-clear__code {
+    width: 65%;
+}
+
+/* SERVICES ESTIMATE CSS */
+
+.estimate {
+    background-color: #F8F8F9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.estimate .description {
+    padding: 1.5rem 0 1.5rem 0;
+    width: 65%;
+   
+}
+
+.estimate .description__title, .estimate .description__paragraph {
+    padding: 0;
+}
+
+.estimate__table {
+width: 65%;
+}
+
+/* RESPONSIVE CSS */
+
+@media screen and (min-width: 768px) {
+
+/* SERVICES RESPONSIVE CSS */ 
+    .services {
+    background-color: #F8F8F9;
+    }
+
+/* SERVICES TRACK CLEAR RESPONSIVE CSS */
+
+    .track-clear {
+    display: block;
+    clear: both;
+    padding-top: 3rem;
+    }
+    
+    .track-clear .description {
+    width: 40%;
+    float: right;
+    padding-right: 8%;
+    text-align: left;
+    }
+    
+    .track-clear__code {
+    width: 40%;
+    float: left;
+    padding-left: 8%;
+    }
+
+/* SERVICES ESTIMATE RESPONSIVE CSS */
+
+    .estimate {
+    display: block;
+    clear: both;
+    padding-top: 3rem;
+    overflow: hidden;
+    }
+
+    .estimate .description {
+    width: 40%;
+    float: left;
+    padding: 14% 0 0 8%;
+    text-align: left;
+    }
+
+    .estimate__table {
+    width: 40%;
+    float: right;
+    padding-right: 8%;
+    }
+    
+    
+}

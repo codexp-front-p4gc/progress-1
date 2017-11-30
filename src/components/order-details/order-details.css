@@ -1,0 +1,19 @@
+.order-details {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    border-top: 1px solid #E3E3E8;
+    border-bottom: 1px solid #E3E3E8;
+    padding: 1em 0 1em 0;
+}
+
+.order-details-head {
+    color: #989a98;
+}
+
+.order-details-body__line--left, .order-details-head__title--left {
+    text-align: left;
+}
+
+.order-details-body__line--right, .order-details-head__title--right {
+    text-align: right;
+}
