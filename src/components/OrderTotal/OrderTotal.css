@@ -1,0 +1,23 @@
+.order-total__row {
+    font-size: 1rem;
+    text-align: right;
+  }
+  .order-total__row--title {
+    color: #CDD8C5;
+    text-transform: uppercase;
+  } 
+  
+  .order-total__row--value {
+    color: #000000;
+    padding-left: 15%;
+  } 
+  
+  .total {
+    font-size: 2rem;
+    padding-top: 10%;
+  }
+  
+  .total:nth-child(2) {
+    color: #61D988;
+  }
+  
