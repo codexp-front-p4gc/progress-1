@@ -28,11 +28,13 @@ var orderDetails = {
   amount4: 980.00,
 };
 
+
 export default () => (
   <div className="App">
     <Hero />
     <Services titleTrack = {titleTrack} paragraphTrack = {paragraphTrack} titleClear = {titleClear} paragraphClear = {paragraphClear}
      titleEstimate = {titleEstimate} paragraphEstimate = {paragraphEstimate} />
     
+
   </div>
 );
